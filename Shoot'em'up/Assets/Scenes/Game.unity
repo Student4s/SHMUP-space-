@@ -285,7 +285,7 @@ GameObject:
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -465,7 +465,8 @@ PrefabInstance:
     - target: {fileID: 192754, guid: 81a45116981bb514c866bab4841bb1fe, type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 192754, guid: 81a45116981bb514c866bab4841bb1fe, type: 3}
       propertyPath: m_Name
       value: Player
@@ -537,7 +538,7 @@ PrefabInstance:
     - target: {fileID: 2385482, guid: 81a45116981bb514c866bab4841bb1fe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d50fa1b1c546e0940964be2a9eb33d91, type: 2}
+      objectReference: {fileID: 2100000, guid: 1fa48d7e2df80ed41adbc27f737ad3d2, type: 2}
     m_RemovedComponents:
     - {fileID: 9566272, guid: 81a45116981bb514c866bab4841bb1fe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 81a45116981bb514c866bab4841bb1fe, type: 3}
