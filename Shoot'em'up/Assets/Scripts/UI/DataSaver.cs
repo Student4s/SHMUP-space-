@@ -18,16 +18,15 @@ public class DataSaver : MonoBehaviour
     private void Awake()
     {
         Load();
-        
         Enemy.EnemyDie += AddScore;
-        LoseMenu.Save += Save;
-        PauseMenu.Save += Save;
     }
 
     public void Load()
     {
         data = JsonUtility.FromJson<Data>(File.ReadAllText(Application.streamingAssetsPath + "Save.json"));
-        ChangeScin(data.currentScinNumber);
+        if (data != null)
+            ChangeScin(data.currentScinNumber);
+
     }
 
     public void Save()
@@ -37,6 +36,7 @@ public class DataSaver : MonoBehaviour
     void AddScore(int score)
     {
         data.scores += score;
+        Save();
     }
 
     public void SetCurrentScin(int number)
@@ -51,15 +51,13 @@ public class DataSaver : MonoBehaviour
     private void OnDestroy()
     {
         Enemy.EnemyDie -= AddScore;
-        LoseMenu.Save -= Save;
-        PauseMenu.Save -= Save;
     }
 
     [Serializable]
     public class Data
     {
         public int scores;
-        public int currentScinNumber;
+        public int currentScinNumber = 0;
         public bool[] availableScins = new bool[6];
     }
 }

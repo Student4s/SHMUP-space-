@@ -6,9 +6,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject menu;
-    public delegate void SaveData();
 
-    public static event SaveData Save;
     public void OpenMenu()
     {
         Time.timeScale = 0f;
@@ -22,9 +20,9 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void ToMainMenu()
-    {
+    { 
         Time.timeScale = 1f;
-        Save();
         SceneManager.LoadScene(0);
+       
     }
 }

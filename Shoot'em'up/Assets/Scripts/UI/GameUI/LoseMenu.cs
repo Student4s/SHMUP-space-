@@ -7,9 +7,6 @@ public class LoseMenu : MonoBehaviour
 {
    [SerializeField] private GameObject loseMenu;
    
-   public delegate void SaveData();
-
-   public static event SaveData Save;
     void Awake()
     {
         Player.Die += OpenLoseMenu;
@@ -18,7 +15,6 @@ public class LoseMenu : MonoBehaviour
     void OpenLoseMenu()
     {
         loseMenu.SetActive(true);
-        Save();
     }
 
     private void OnDestroy()

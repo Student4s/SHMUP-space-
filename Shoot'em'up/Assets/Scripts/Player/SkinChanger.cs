@@ -12,7 +12,8 @@ public class SkinChanger : MonoBehaviour
     }
     void ChangeSkin(int skinNumber)
     {
-        gameObject.GetComponent<MeshRenderer>().material = skins[skinNumber];
+        if(gameObject.GetComponent<MeshRenderer>()!=null) 
+            gameObject.GetComponent<MeshRenderer>().material = skins[skinNumber];
     }
     private void OnDestroy()
     {

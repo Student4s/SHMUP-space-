@@ -130,41 +130,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1566}
     - Class: 114
-      Script: {instanceID: 2576}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 2618}
+      Script: {instanceID: 2616}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 3108}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 3146}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3160}
+      Script: {instanceID: 3158}
     - Class: 114
-      Script: {instanceID: 3928}
+      Script: {instanceID: 3926}
     - Class: 114
-      Script: {instanceID: 4140}
+      Script: {instanceID: 4138}
     - Class: 114
-      Script: {instanceID: 4282}
+      Script: {instanceID: 4280}
     - Class: 114
-      Script: {instanceID: 5368}
+      Script: {instanceID: 5366}
     - Class: 114
-      Script: {instanceID: 5532}
+      Script: {instanceID: 5530}
     - Class: 114
-      Script: {instanceID: 5864}
+      Script: {instanceID: 5862}
     - Class: 114
-      Script: {instanceID: 6346}
+      Script: {instanceID: 6344}
     - Class: 114
-      Script: {instanceID: 6362}
+      Script: {instanceID: 6360}
     - Class: 114
-      Script: {instanceID: 6472}
+      Script: {instanceID: 6470}
     - Class: 114
-      Script: {instanceID: 7010}
+      Script: {instanceID: 7008}
     - Class: 114
-      Script: {instanceID: 7668}
+      Script: {instanceID: 7666}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -223,23 +223,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1566}
     - Class: 114
-      Script: {instanceID: 2618}
+      Script: {instanceID: 2616}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 3108}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 3146}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4394}
     - Class: 114
-      Script: {instanceID: 5532}
+      Script: {instanceID: 5530}
     - Class: 114
-      Script: {instanceID: 5864}
+      Script: {instanceID: 5862}
     - Class: 114
-      Script: {instanceID: 6362}
+      Script: {instanceID: 6360}
     - Class: 114
-      Script: {instanceID: 7632}
+      Script: {instanceID: 7630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -353,12 +353,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreakMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: d3fd8b818be1f1b752ff4a79b7bf7733
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MagniteAsteroid
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -1143,4 +1137,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: D:/Shoot'em'up/Test1.apk
+  playerPath: D:/SHMUP-space-try-1-/Shoot'em'up/space-1.03.apk
